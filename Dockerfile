@@ -1,5 +1,5 @@
-FROM ubuntu:16.04
-MAINTAINER LineageOS Infrastructure Team <infra@lienageos.org>
+FROM debian:latest
+MAINTAINER BenLue <benlue@s3root.ovh>
 
 ENV DEBIAN_FRONTEND noninteractive
 
