@@ -4,5 +4,5 @@ echo "Starting jenkins slave agent..."
 
 exec \
     s6-setuidgid lineage /bin/bash -lc \
-    "java -jar /usr/local/bin/slave.jar -jnlpUrl http://192.168.1.88:8080/computer/${NAME}/slave-agent.jnlp -secret $JENKINS_AUTH_TOKEN"
+    "java -jar /usr/local/bin/slave.jar -jnlpUrl http://192.168.1.88:8080/computer/${NAME}/slave-agent.jnlp -secret ca3c8ea09d658d06c2620aca32729191"
 
