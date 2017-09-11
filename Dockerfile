@@ -5,6 +5,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 # Build tools
 RUN apt-get update && apt-get -y --no-install-recommends install \
+    apt-utils \
     openjdk-8-jdk \
     python \
     bc \
