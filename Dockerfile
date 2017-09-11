@@ -42,7 +42,7 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
 
 # Add tools
 ADD https://commondatastorage.googleapis.com/git-repo-downloads/repo /usr/local/bin/
-ADD https://jenkins.lineageos.org/jnlpJars/slave.jar /usr/local/bin/
+ADD http://192.168.1.88/jnlpJars/slave.jar /usr/local/bin/
 RUN chmod 755 /usr/local/bin/*
 
 # Add s6-overlay
